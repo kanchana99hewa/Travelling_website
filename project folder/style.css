@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Permanent+Marker&family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Lobster&family=Merienda:wght@700&family=Permanent+Marker&family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Lato:ital,wght@1,300&family=Lobster&family=Merienda:wght@700&family=Permanent+Marker&family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=DM+Sans:wght@700&family=Lato:ital,wght@1,300&family=Lobster&family=Merienda:wght@700&family=Permanent+Marker&family=Readex+Pro&family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=DM+Sans:wght@700&family=Lato:ital,wght@1,300&family=Lobster&family=Merienda:wght@700&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Readex+Pro&family=Sarina&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-famiy: sans-serif;
+  font-weight: bold;
+}
+.banner{
+	width: 100%;
+	height: 104vh;
+	background-image: url(bac.jpg);
+	pointer: cover;
+	background-position:center;
+  background-size: cover;
+  font-weight: bold;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: rgb(12, 8, 59) ;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+<!--this trick allows  to insert content onto a page without it needing to be in the HTML-- >
+.logo{
+    float:left;
+}
+nav{
+    float: right;
+    
+}
+nav ul{
+   margin: 0%;
+   padding: 0%;
+   list-style: none; 
+}
+
+nav li{
+    display: inline-block ;
+    margin-left: 70px;
+    padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+    color:rgb(255, 251, 0) ;
+    text-decoration: none;
+    text-transform: uppercase ;
+    font-size: 17px ;
+    font-family: Readex pro;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: rgb(160, 217, 231);
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 6px;
+    background-color: rgb(128, 216, 238);
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  } 
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+  }
+  .col{
+    flex-basis: 55%;
+    padding-left: 2%;
+    height: 50%;
+    
+  }
+
+  .para1{
+    font-family:Lobster ;
+    color: rgb(1, 0, 12);
+    font-size: 25px;
+    line-height: 15px;
+    padding-top: 0px;
+    padding-left: 12%;
+    font-weight: bold
+  }
+
+   
+  
+  
+    button{
+    width: 180px;
+    color:rgb(240, 241, 228);
+    font-size: 14px;
+    padding: 12px 0;
+    background: rgb(15, 0, 14);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+  }
+  button:hover {background-color: #0e3f99}
+
+
+  .cl{
+    padding-left: 20%;
+    
+  }
+
+  h3{
+    color:rgb(12, 12, 12) ;
+    text-shadow: rgb(244, 245, 243);
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+
+     /*swap pro*/
+.hed{
+  height: 240px;
+  width: 650px;
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+  margin-top:-13%;
+  margin-left: 5%;
+ 
+}
+
+.frnt,
+.bac{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60;  
+  border-radius: 10px;
+  position: absolute;
+}
+
+.frnt{
+  background-image: linear-gradient(to left, rgb(86, 174, 201), rgba(28, 105, 194, 0.98));
+  z-index: 2;
+  backface-visibility: hidden;
+  font-family:Sarina ;
+ 
+
+}
+
+.bac{
+  background-image: linear-gradient(to top, rgba(85, 185, 164, 0.945), rgba(27, 104, 117, 0.945));
+  z-index: 1;
+  transform: rotateY(180deg);
+  font-size: 370%;
+  font-family:Mochiy Pop P One ;
+  
+  color: #02000c;
+
+
+}
+
+.swa:hover .hed{
+  transform: rotateY(180deg);
+}
+
+/*HOME*/
+.roow{
+  margin-bottom: 100%;
+}
+
+.list-item {
+  overflow: hidden;
+  flex-basis: 52%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 26%;
+ 
+  
+
+  
+}
+
+.list-item .list-thumb {
+  overflow: hidden;
+}
+
+.list-item .list-thumb .title {
+  background-color: rgb(4, 14, 63);
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  height: 50px;
+  text-align: center;
+}
+
+.list-item .list-thumb .title h4 {
+  color: #fff;
+  line-height: 50px;
+}
+
+.list-item .list-thumb img {
+  width:110%;
+  height: 37%;
+}
+
+.list-item .list-content h5 {
+  color: #b90db1;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 15px 0 5px 0;
+  
+  
+}
+
+.list-item .list-content span {
+  color: #110000;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+}
+
+.list-item .list-content a.price-btn {
+  display: block;
+  background-color: #188875;
+  color: rgb(12, 1, 1);
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+
+.list-item .list-content a.price-btn:hover {
+  background-color: #728a1e;
+}
+
+
+    /*about*/
+    .abba{
+      width: 100%;
+      height: 120%;
+   
+      background-position:left;
+      background-size:cover; 
+      background-image: url(p11.jpg);
+      background-repeat: no-repeat;
+  
+     
+    }
+
+  .main{
+   
+    width: 36%;
+    color:rgb(7, 3, 63);
+    font-size: 30px;
+    text-align: center;
+    padding-left: 30%;
+    margin-top: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    line-height: 100%;
+    
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom:1% ;
+    margin-left: 10%;
+
+  }
+  p.ma{
+    line-height: 1.2; 
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 21px;
+    font-family: sans-serif;
+    
+   
+   
+  
+  }
+  
+/*about hover*/
+
+.boxx{
+
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 9px;
+  margin-top: 55% ;
+  padding-right: 2%;
+  background-repeat: no-repeat;
+
+
+
+}
+.our{
+  padding-left: 1%;
+  padding-top: 6%;
+  font-size: 300%;
+  font-family:Mochiy Pop P One;
+  
+}
+.card{
+ 
+  position: relative;
+  width: 17%;
+  height: 200px;
+  background: rgb(0, 2, 12);
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow:0 2px 10px rgba(0,0,0,.2);
+  padding: 2%;
+}
+
+
+.card .imgBx{
+position: absolute;
+top: 10px;
+left: 10px;
+bottom: 10px;
+right: 10px;
+
+transition: 0.4s;
+z-index: 1;
+}
+
+.card:hover .imgBx
+{
+  bottom: 100px;
+}
+
+.card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .details{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+}
+
+.card .details h2{
+ margin: 0;
+ padding: 0;
+ font-weight: 600;
+ font-size: 20px;
+ color: rgb(195, 206, 41);
+ text-transform: uppercase;
+} 
+
+.card .details h2 span{
+font-weight: 500;
+font-size: 16px;
+color: #fffbfb;
+display:block;
+margin-top: 5px;
+ }
+.ar{
+  padding-left: 45%;
+  padding-top: 90%;
+  font-size: 35px;
+}
+
+
+  
+
+  
+/*detinations*/
+.trav{
+    
+  pointer: cover;
+  background-image: url(n1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+ 
+ 
+}
+ .img{
+  display: flex;
+  width: 25%;
+ }
+ .container{
+   width: 300%;
+   width: 90%;
+   padding:30px;
+   margin: 0 auto;
+ }
+ .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:2em ; 
+ }
+ .cardo{
+   flex: 1 0 270px;
+   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.993), rgb(41, 214, 245));
+   padding: 30px;
+   align-self: normal;
+  
+ }
+ .cardo.img{
+   width: 50%;
+   height: 50%;
+   
+ }
+ .cardo.img img{
+   width:50% ;
+   height: 50%;
+   object-fit: cover;
+ }
+ .cardo.txt{
+   padding: 30px;
+   text-align: center;
+ }
+ h4{
+   margin-bottom: 10px;
+   font-size: 1.2rem;
+ }
+ .cardo3.img{
+   width: 1px;
+   height: 10%;
+ }
+
+ .txt h3{
+   font-size: 170%;
+   line-height: 250%;
+ }
+ .txt p{
+  font-size: 100%;
+  line-height: 150%;
+}
+
+/*contact page*/
+.conta{
+  width: 100%;
+  height: 108%;
+  background-image: url(build.jpg);
+  pointer: cover;
+  background-position: bottom;
+  background-size: cover; 
+}
+ .contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 0px 10px;
+  margin: -50px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+ 
+}
+.content{
+  max-width: 800px;
+  text-align: center;
+  padding-right: 30%;
+
+
+}
+.content h2{
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(247, 247, 238);
+  font-family: lobster;
+  padding-top: 4%;
+ 
+
+}
+.content p{
+  font-size: 21px;
+  font-weight: 900;
+  color: rgb(243, 235, 235);  
+  font-weight: 500;
+  color: #fff;
+}
+
+
+
+
+.contcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.continfo{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  position: relative;
+  padding: 30px 0px;
+  display:flex;
+ 
+}
+.icon{
+  min-width: 60px;
+  height: 60px;
+  background: rgb(248, 248, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60%;
+  font-size: 25px;
+}
+.text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 18px;
+  color: rgb(22, 13, 13);
+  flex-direction: column;
+  font-weight: 300;
+  background-image: linear-gradient(to left, rgba(178, 240, 240, 0.993), rgb(250, 250, 250));
+  width: 40%;
+  padding-left: 6%;
+  border-radius:45px;
+
+}
+.text h3{
+  font-size:30px ;
+  color: #0d064d; 
+  font-family: 'Times New Roman', Times, serif;
+}
+.contactform {
+  font-size: 30px;
+  background: rgb(240, 240, 38);
+  width: 565px;
+  padding-left: 2%;
+  padding-top: 0.5%;
+
+  
+
+}
+.InputBox{
+  position: relative;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.InputBox input,
+.InputBox textarea
+{
+  width: 150%;
+  padding: 13px 0;
+  font-size: 16px;
+  margin: 11px 0;
+  border:none;
+  border-bottom: 8px solid rgb(29, 121, 145);
+  outline: none;
+  resize: none;
+}
+
+
+.InputBox span{
+  position: absolute;
+  left: 3px ;
+  padding: -6px 0;
+  font-size: 18px;
+  margin: 10px ;
+  pointer-events: none;
+  transition: 0.5s;
+  color: rgb(17, 16, 16);
+}
+.InputBox input:focus ~ span,
+.InputBox input:valid ~ span
+.InputBox textarea:focus ~ span,
+.InputBox textarea:valid ~ span
+{
+  color: #121311;
+  font: size 12px;
+  transform: translateY(-20px);
+}
+.InputBox input[type="submit"]{
+  width: 100px;
+  background: #00d4c9;
+  color: rgb(17, 16, 16);
+  border: rgb(20, 20, 22);
+  cursor: pointer;
+  padding: 10px;
+  font-size: 19px;
+  margin-left: 120%;
+}
+@media(max-width:991px)
+{
+  .contact{
+    padding: 50px;
+  }
+  .contcontainer{
+    flex-direction: column;
+  }
+.continfo{
+    margin-bottom: 40px;
+  }
+.continfo{
+    width: 100%;
+  }
+}
+
+
+/*footer*/
+
+.flex-row{
+	display: flex;
+	flex-wrap: wrap;
+  height:18% ;
+  
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #1a0738;
+  padding: 70px 0;
+  height: 190px;
+}
+.footer-col{
+ 
+   padding: 15px 160px 5px 50px;
+   margin-top: -2%;
+   margin-left: 1px;
+  
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 52px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 15px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #faf5f5;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #e764c6;
+	padding-left: 4px;
+}
+ .social-links ::before{
+	display: inline-block;
+	height: 80px;
+	width: 60px;
+  color: rgb(250, 246, 249);
+	margin:6px 10px 10px 0;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 10%;
+
+	transition: all 0.5s ease;
+}
+ .social-links a:hover{
+	color: #171718;
+	background-color: #130c12;
+}
+
+
+
+
+
