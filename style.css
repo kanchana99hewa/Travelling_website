@@ -433,13 +433,14 @@ margin-top: 5px;
 
 .cardo {
   flex: 1 0 270px;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.993), rgb(41, 214, 245));
+  background-image: linear-gradient(to left, rgba(254, 255, 255, 0.993), rgb(39, 210, 240));
   padding: 20px;
   margin-bottom: 20px;
 }
 
 .cardo .img {
   margin-bottom: 15px;
+  
 }
 
 .cardo .img img {
