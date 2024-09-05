@@ -317,7 +317,9 @@ nav a {
 
 
 /*about hover*/
-
+.header-content{
+  padding-top: 5%;
+}
 .boxx{
 
   display: flex;
@@ -415,7 +417,7 @@ margin-top: 5px;
 
 .trav {
   pointer-events: cover;
-  background-image: url('n1.jpg');
+  background-image: url('paddy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -446,7 +448,7 @@ margin-top: 5px;
 
 .cardo {
   flex: 1 0 270px;
-  background-image: linear-gradient(to left, rgba(229, 240, 243, 0.993), rgb(39, 210, 240));
+  background-image: linear-gradient(to left, rgba(229, 240, 243, 0.993), rgb(112, 193, 207));
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -483,9 +485,9 @@ margin-top: 5px;
 .conta {
   width: 100%;
   height: 150vh; 
-  background-image: url('sky.jpg');
-  background-position: bottom;
-  background-size: cover;
+  background-image: url('contact.jpg');
+  background-position:left;
+  background-size:cover;
   background-repeat: no-repeat; /* Added to prevent repeating the image */
 }
 
