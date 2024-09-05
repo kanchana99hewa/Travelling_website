@@ -16,7 +16,7 @@
 .banner{
 	width: 100%;
 	height: 104vh;
-	background-image: url(bac.jpg);
+	background-image: url(bac1.jpeg);
 	pointer: cover;
 	background-position:center;
   background-size: cover;
@@ -99,13 +99,14 @@ nav a {
   }
 
   .para1{
-    font-family:Lobster ;
+    font-family:monospace ;
     color: rgb(1, 0, 12);
-    font-size: 25px;
+    font-size: 18px;
     line-height: 15px;
     padding-top: 0px;
     padding-left: 12%;
-    font-weight: bold
+   
+    
   }
 
    
@@ -116,7 +117,7 @@ nav a {
     color:rgb(240, 241, 228);
     font-size: 14px;
     padding: 12px 0;
-    background: rgb(15, 0, 14);
+    background: rgb(2, 6, 56);
     border: 0;
     border-radius: 20px;
     outline: none;
@@ -162,13 +163,13 @@ nav a {
 }
 
 .frnt {
-  background-image: linear-gradient(to left, rgb(86, 174, 201), rgba(28, 105, 194, 0.98));
+  background-image: linear-gradient(to left, rgba(250, 250, 250, 0.637), rgba(20, 157, 211, 0.425));
   z-index: 2;
   font-family: Sarina, sans-serif; /* Added fallback font */
 }
 
 .bac {
-  background-image: linear-gradient(to top, rgba(85, 185, 164, 0.945), rgba(27, 104, 117, 0.945));
+  background-image: linear-gradient(to top, rgba(210, 230, 225, 0.945), rgba(55, 157, 182, 0.945));
   z-index: 1;
   transform: rotateY(180deg);
   font-size: 37px;  /* Changed from percentage to 'px' unit for font-size */
@@ -193,7 +194,7 @@ nav a {
   box-sizing: border-box;
   flex-basis: calc(27% - 20px); /* Adjusted for spacing */
   padding: 26px; /* Increased padding */
-  background-color: #d1d4d6;
+  background-color: #dddedf;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -244,7 +245,7 @@ nav a {
 
 .list-content a.price-btn {
   display: block;
-  background-color: #188875;
+  background-color: #0ea7ce;
   color: rgb(12, 1, 1);
   padding: 15px; /* Increased padding */
   text-align: center;
@@ -267,13 +268,14 @@ nav a {
       width: 100%;
       height: 180%;
    
-      background-position:left;
+    background-position: left;
       background-size:cover; 
-      background-image: url(p11.jpg);
+      background-image: url(girl2.jpg);
       background-repeat: no-repeat;
   
      
     }
+   
 
   .main{
    
@@ -282,7 +284,7 @@ nav a {
     font-size: 10px;
     text-align: left;
     padding-left: 30%;
-    margin-top: 25%;
+    margin-top: 30%;
     position: absolute;
     transform: translate(-50%,-50%);
     line-height: 100%;
@@ -294,17 +296,26 @@ nav a {
 
   }
   p.ma{
-    line-height: 1.2; 
+    line-height: 1.6; 
     text-align: justify;
     text-justify: inter-word;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     
-   
-   
-  
   }
-  
+  #topic {
+    font-size: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #06053d;
+    padding-right: 58%;
+   margin-bottom: 4%;
+   
+   
+}
+
+
 /*about hover*/
 
 .boxx{
@@ -472,7 +483,7 @@ margin-top: 5px;
 .conta {
   width: 100%;
   height: 150vh; 
-  background-image: url('build.jpg');
+  background-image: url('sky.jpg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat; /* Added to prevent repeating the image */
@@ -491,13 +502,13 @@ margin-top: 5px;
 .content {
   max-width: 800px;
   text-align: center;
-  padding-right: 30%; /* Adjusted padding */
+  padding-right: 1%; /* Adjusted padding */
 }
 
 .content h2 {
   font-size: 40px;
   font-weight: 900;
-  color: rgb(247, 247, 238);
+  color: rgb(7, 7, 0);
   font-family: 'Lobster', cursive; 
   padding-top: 4%;
 }
@@ -505,7 +516,7 @@ margin-top: 5px;
 .content p {
   font-size: 21px;
   font-weight: 500; 
-  color: #fff; 
+  color: #000000; 
 }
 
 .contcontainer {
@@ -620,7 +631,7 @@ margin-top: 5px;
 
 
 .footer {
-  background-color: #1a0738;
+  background-color: #0a011a;
   padding: 40px 0;
   height: auto;
 }
@@ -653,7 +664,7 @@ margin-top: 5px;
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #bdc01a;
   height: 2px;
   box-sizing: border-box;
   width: 52px;
@@ -678,7 +689,7 @@ margin-top: 5px;
 }
 
 .footer-col ul li a:hover {
-  color: #e764c6;
+  color: #2c7d96;
   padding-left: 4px;
 }
 
@@ -703,7 +714,7 @@ margin-top: 5px;
 
 .social-links a:hover {
   color: #ffffff;
-  background-color: #bc53ca;
+  background-color: #43b5c9;
 }
 
 .footer p {
